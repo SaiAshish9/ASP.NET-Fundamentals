@@ -25,8 +25,26 @@ namespace mvc_test.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
+            // return View();
+            return Json("data");
         }
+
+        public ActionResult Edit(int? id, string x)
+        {
+            if (!id.HasValue)
+                id = 1;
+            if (String.IsNullOrWhiteSpace(x))
+                x = "a";
+            return Content(String.Format("id={0} & x={1}",id,x));
+        }
+
+        // int? id,string x
+
+
+        // Content File Redirect RedirectToAction HttpNotFound
+        // View PartialView 
+        // new EmptyResult();
+        // RedirectToAction("Index","Home",new {page=1,sortBy="name"})
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
