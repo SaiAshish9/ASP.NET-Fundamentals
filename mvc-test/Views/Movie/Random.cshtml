@@ -2,8 +2,27 @@
 
 @* <h2>@(((MovieViewModel)@ViewData["Movie"]).Name)</h2> *@
 
-<h1>@Model.Name</h1>
+@{
+    var classname = Model.Customers.Count > 5 ? "popular":null;
+}
+
+<h1 class="@classname">@Model.Movie.Name</h1>
 
 <br/>
+
+@if (Model.Customers.Count == 0)
+{
+      <text></text>
+}
+else
+{
+    <ul>
+@foreach (var item in Model.Customers)
+        {
+                <li>@item.Name</li>
+        }
+    </ul>
+}
+
 
 @* <h2>@ViewBag.Movie</h2> *@
