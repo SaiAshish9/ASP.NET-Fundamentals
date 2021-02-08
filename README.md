@@ -12,6 +12,9 @@ dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet ef migrations add InitialCreate
 
 dotnet build
+
+dotnet new webapi -o rest
+
 ```
 
 
