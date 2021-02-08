@@ -15613,6 +15613,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/saiashish9/Desktop/projects/asp.net/mvc-test/Views/Movie/Random.cshtml",
+      "TargetPath": "Views\\Movie\\Random.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/saiashish9/Desktop/projects/asp.net/mvc-test/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
