@@ -39,3 +39,5 @@
 /home/saiashish9/Desktop/projects/asp.net/mvc-test/obj/Debug/net5.0/mvc-test.genruntimeconfig.cache
 /home/saiashish9/Desktop/projects/asp.net/mvc-test/obj/Debug/net5.0/mvc-test.csproj.CopyComplete
 /home/saiashish9/Desktop/projects/asp.net/mvc-test/obj/Debug/net5.0/Razor/Views/Movie/Random.cshtml.g.cs
+/home/saiashish9/Desktop/projects/asp.net/mvc-test/obj/Debug/net5.0/Razor/Views/Shared/_Navbar.cshtml.g.cs
+/home/saiashish9/Desktop/projects/asp.net/mvc-test/obj/Debug/net5.0/Razor/Views/Shared/_Footer.cshtml.g.cs

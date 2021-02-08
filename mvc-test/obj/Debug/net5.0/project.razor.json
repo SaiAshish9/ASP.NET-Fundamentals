@@ -15603,6 +15603,11 @@
   "RootNamespace": "mvc_test",
   "Documents": [
     {
+      "FilePath": "/home/saiashish9/Desktop/projects/asp.net/mvc-test/Views/Shared/_Navbar.cshtml",
+      "TargetPath": "Views\\Shared\\_Navbar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/saiashish9/Desktop/projects/asp.net/mvc-test/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -15630,6 +15635,11 @@
     {
       "FilePath": "/home/saiashish9/Desktop/projects/asp.net/mvc-test/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/saiashish9/Desktop/projects/asp.net/mvc-test/Views/Shared/_Footer.cshtml",
+      "TargetPath": "Views\\Shared\\_Footer.cshtml",
       "FileKind": "mvc"
     },
     {
