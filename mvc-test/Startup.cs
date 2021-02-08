@@ -46,8 +46,21 @@ namespace mvc_test
 
             app.UseAuthorization();
 
+
             app.UseEndpoints(endpoints =>
             {
+
+                // endpoints.MapControllerRoute(
+                //   "movie",
+                //   "movies/released/{year}/{month}",
+                //   new { controller = "Movie", action = "ByReleaseDate" },
+                //   new { year = @"\d{4}", month = @"\d{1}" }
+                // //   or "\\d{4}" 4 digits
+                // // year = @"2015|2016"
+                // );
+
+                endpoints.MapControllers();
+
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
